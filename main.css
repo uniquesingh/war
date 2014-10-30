@@ -15,7 +15,9 @@
 
 .errors
 {
-	color:white;
+	color: #ff0700;
+	font: 1em/20px Verdana, Arial, Helvetica, sans-serif;
+	margin-left: -37px;
 }
 
 .home-page

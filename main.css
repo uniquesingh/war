@@ -1,6 +1,5 @@
 .mainlogo-img
 {
-	max-width: 200%;
 	display: block;
 	position: relative;
 	width:1420px;
@@ -12,6 +11,11 @@
 .banner
 {
 	margin-left: 198px;
+}
+
+.errors
+{
+	color:white;
 }
 
 .home-page

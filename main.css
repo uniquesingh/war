@@ -51,7 +51,7 @@
 {	
 	position:absolute;
 	height:1600px;
-	width:1418px;
+	width:1420px;
 }
 
 #month
@@ -262,6 +262,11 @@ input
 	border-radius:8px;
 }
 
+.createStaffInput
+{	
+	margin-left: 200px;
+	margin-top: -25px;
+}
 .staff-select
 {
 	width:300px;
@@ -293,7 +298,7 @@ input
 	font-size: 14px;
 }
 
-#submit
+.submit
 {
 	margin-left:487px;
 	margin-top:60px;

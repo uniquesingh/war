@@ -269,7 +269,7 @@ input
 }
 .staff-select
 {
-	width:300px;
+	width:375px;
 	display:block;
 	height: 35px;
 	box-shadow: 0px 0px 31px rgba(248, 218, 0, 0.3);
@@ -321,6 +321,14 @@ input
 	position:relative;
 }
 
+.view-staff-result
+{
+	top:5px;
+	font: 1.0em/30px Verdana, Arial, Helvetica, sans-serif;
+	color:#FFC478;;
+	position:relative;
+	left:-200px;
+}
 .view-course
 {
 	top:5px;
@@ -332,7 +340,7 @@ input
 .view-submit-staff
 {
 	margin-left: 100px;
-	margin-top: 25px;
+	margin-top: -40px;
 	width: 200px;
 	display: block;
 	height: 35px;

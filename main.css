@@ -8,6 +8,16 @@
 	background: -webkit-linear-gradient(bottom, rgb(168, 167, 167) 11%,white 100%); 
 }
 
+.courselayout {
+	height: 8000px;
+	position:absolute;
+	width:1420px;
+}
+
+.courselist
+{
+	font: 0.8em/17px Verdana, Arial, Helvetica, sans-serif;
+}
 .banner
 {
 	margin-left: 198px;
@@ -44,6 +54,8 @@
 
 .background-style
 {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 	background: -webkit-linear-gradient(bottom, rgb(255, 246, 0) -550%,black 100%);
 	background: -moz-linear-gradient(bottom, rgb(255, 246, 0) -550%,black 100%);
 }
@@ -66,6 +78,13 @@
 }
 
 a:-webkit-any-link
+{
+ 	text-decoration: none;
+ 	color: #fff;
+ 	background-color:transparent;
+}
+
+a:-moz-any-link
 {
  	text-decoration: none;
  	color: #fff;
@@ -115,6 +134,7 @@ a:-webkit-any-link
 	width: 215px;
  	height: 30px;
  	text-align: -webkit-center;
+ 	text-align: -moz-center;
 	background: -webkit-linear-gradient(top, black 65%,rgb(168, 167, 167) 170%); 
 	background: -moz-linear-gradient(top, black 65%,rgb(168, 167, 167) 170%); 
 	padding: 18px 0 0 0;
@@ -135,6 +155,7 @@ a:-webkit-any-link
 	width: 200px;
  	height: 20px;
  	text-align: -webkit-center;
+ 	text-align: -moz-center;
 	background: -webkit-linear-gradient(top, black 65%,rgb(168, 167, 167) 170%); 
 	background: -moz-linear-gradient(top, black 65%,rgb(168, 167, 167) 170%); 
 	padding: 10px 0 0 0;
@@ -234,6 +255,31 @@ form
 	border-radius: 10px;
 	padding:130px;
 	margin-left: 290px;
+}
+
+#ccflist
+{
+	top:15px;
+	box-shadow: 0px 0px 31px rgba(248, 218, 0, 0.3);
+	border: 1px solid #965A00;
+	margin:auto;
+	position:relative;
+	width:830px;
+	height:7300px;
+	line-height: 24px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+	padding:130px;
+	margin-left: 290px;
+}
+
+tr.border_bottom td {
+ 	font: 0.8em/17px Verdana, Arial, Helvetica, sans-serif;
+	position:relative;
+	line-height: 10px;
+	border: 1px solid rgba(242, 170, 13, 0.40);
 }
 
 #ccf-staff-home
